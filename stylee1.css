@@ -1,0 +1,197 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,500|Roboto+Slab:400,500&display=swap);
+
+body{
+	background-color: #FFFFFF;
+} 
+
+.header{
+	text-align: center;
+	margin:0px;
+}
+
+h1{
+	color: #FFE4CF;
+	font-family: 'Poppins', serif;
+	font-size: 35px;
+	text-align: center;
+}
+
+h2{
+	color: #FFE4CF;
+	font-family: 'Poppins', serif;
+	font-size: 30px;
+	text-align: center;
+}
+
+h3{
+	color: #FFE4CF;
+	font-family: 'Poppins', serif;
+	font-size: 23px;
+	font-style: bold;
+	text-align: center;
+}
+
+h4{
+	color: black;
+	font-family: 'Poppins', serif;
+	font-size: 15px;
+	text-align: center;
+	font-style: italic;
+}
+
+form{
+	font-family: 'Poppins', serif;
+	font-size: 20px;
+	text-align: center;
+} 
+
+input{
+	font-family: 'Poppins', serif;
+	font-size: 15px;
+	width: 800px;
+	text-align: center;
+	margin: 13px;
+	background-color:rgba(240,240,240,0.5);
+	color: #FFFFFF;
+}
+
+button{
+	font-family: 'Poppins', serif;
+	font-size: 15px;
+	border-radius: 5px;
+	color: black;
+}
+
+button:hover{
+	background-color: #FFE4CF;
+}
+
+.connect{
+	position:relative;
+}
+
+.btn-saumon {
+	position: absolute;
+	float: right;
+	font-family: 'Poppins', serif;
+	background-color: #FFE4CF;
+	color:black;
+	padding: 15px 30px;
+	border-radius: 5px;
+	width: 170px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.btn-saumon:hover {
+	background-color:#FFFFFF;
+	color:black;
+}
+
+.connect{
+	left: 0;
+}
+
+.create{
+	right: 0;
+}
+
+.banner h1{
+	background-image: url(images/banniere);
+	background-size: cover;
+	background-position: center;
+	padding: 140px;
+}
+
+.profil {
+padding: 10px;
+justify-content: space-between;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+border-radius: 6px;
+margin : 430px;
+flex-basis: 200px;
+flex-grow: 1;
+margin-top: 20px;
+margin-bottom: 60px;
+}
+
+.profil img{
+	width: 180px;
+	border-radius: 100px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.articles{
+padding: 10px;
+justify-content: space-between;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+border-radius: 6px;
+margin : 80px;
+flex-basis: 200px;
+flex-grow: 1;
+margin-top: 20px;
+margin-bottom: 60px;
+}
+
+.articles img{
+ width:  250px;
+ height: 250px;
+ object-fit: cover;
+}
+
+
+.reseaux{
+padding: 10px;
+justify-content: space-between;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+border-radius: 6px;
+margin : 80px;
+flex-basis: 200px;
+flex-grow: 1;
+margin-top: 20px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.reseaux h2{
+color: #6d8277;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 60px ;
+}
+.list-inline a {
+	font-size: 30px;
+	color: #6d8277;
+}
+.list-inline a:hover {
+	color: #FFE4CF;
+}
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
